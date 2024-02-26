@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Resources that do not require translation -->
+    <string name="app_name" translatable="false">NYC High Schools</string>
+
+    <!-- Translatable resources -->
+    <string name="menu_filter_by_grow_zone" translation_description="The label for the menu item to filter the displayed schools by grow zone.">Filter by grow zone</string>
+    <string name="my_schools_title" translation_description="Title for the 'My Schools' screen where the user can see the list of schools that have been added to their school.">My Schools</string>
+    <string name="school_list_title" translation_description="Title for the school list screen where the user can see a list of schools available to add to their school.">Schools List</string>
+    <string name="available" translation_description="Text for the header of the school list page indicating the available schools for users to choose from.">Available schools</string>
+    <string name="school_details_title" translation_description="Title for the school details screen where the user can see the details for a specific school.">School Details</string>
+    <string name="add_school" translation_description="Button text that prompts user to navigate to the school List to add schools to their empty school.">Add School</string>
+    <string name="added_school_to_my_schools" translation_description="Confirmation text that is shown when a user adds a school to their empty school.">Added School to My Schools</string>
+    <string name="school_empty" translation_description="Text that is shown on the 'My school' screen when no schools have been added to the user's school">Your Schools are Empty</string>
+    <string name="menu_item_share_school" translation_description="The label for the Share menu item">Share</string>
+    <string name="share_text_school" translation_description="The default messaged used when sharing a school on SNS, etc.">Check out the %s school in the Android CNH app</string>
+    <string name="mock_school_overview_paragraph" translation_description="Mock text for an overview paragraph of a school">Students who are prepared for college must have an education that encourages them to take risks as they produce and perform. Our college preparatory curriculum develops writers and has built a tight-knit community. Our school develops students who can think analytically and write creatively. Our arts programming builds on our 25 years of experience in visual, performing arts and music on a middle school level. We partner with New Audience and the Whitney Museum as cultural partners. We are a International Baccalaureate (IB) candidate school that offers opportunities to take college courses at neighboring universities.</string>
+    <string name="mock_academic_opportunities1" translation_description="Mock text for academic opportunities1">Free college courses at neighboring universities</string>
+    <string name="mock_academic_opportunities2" translation_description="Mock text for academic opportunities2">International Travel, Special Arts Programs, Music, Internships, College Mentoring English Language Learner Programs: English as a New Language</string>
+    <string name="mock_academic_opportunities3" translation_description="Mock text for academic opportunities3">The Learning to Work (LTW) partner for Liberation Diploma Plus High School is CAMBA.</string>
+    <string name="mock_academic_opportunities4" translation_description="Mock text for academic opportunities4">PEARLS Awards, Academy Awards, Rose Ceremony/Parent Daughter Breakfast, Ice Cream Social.</string>
+    <string name="mock_academic_opportunities5" translation_description="Mock text for academic opportunities5">Health and Wellness Program</string>
+
+    <!-- String plurals and their related prefix / suffix strings -->
+    <string name="servicing_needs_prefix" translation_description="Prefix for the text describing how often a school should be serviced. Used in combination with servicing_needs_suffix.">School Information</string>
+    <plurals name="servicing_needs_suffix">
+        <item quantity="one" translation_description="Suffix for the text describing how often a school should be serviced, singular. Used in combination with servicing_needs_prefix: 'Servicing needs: every day'.">every day</item>
+        <item quantity="other" translation_description="Suffix for the text describing how often a school should be serviced, plural. Used in combination with servicing_needs_prefix: 'Servicing needs: every 8 days'.">every %d days</item>
+    </plurals>
+
+    <plurals name="servicing_next">
+        <item quantity="one" translation_description="Text indicating when the the school should next be serviced, singular. Used in conjunction with last serviced date. 'May 24, 2020 - service tomorrow.'.">service tomorrow.</item>
+        <item quantity="other" translation_description="Text indicating when the the school should next be serviced, plural. Used in conjunction with last serviced date. 'May 24, 2020 - service in 8 days.'.">service in %d days.</item>
+    </plurals>
+
+    <!-- Accessibility -->
+    <string name="a11y_school_item_image" translation_description="Accessibility text for each of the school images shown in the 'My schools' and 'Schools list' screens.">Picture of school</string>
+    <string name="a11y_back" translatable="false">Navigate up</string>
+    <string name="gallery_content_description" translation_description="Content description for the clickable image to navigate to the gallery screen">Navigate to gallery screen</string>
+    <string name="school_detail_image_content_description" translation_description="Content description for the header / hero image that is show at the top of the school detail screen.">Image of school</string>
+
+</resources>
